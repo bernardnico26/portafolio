@@ -1,5 +1,5 @@
 import Me from "../components/Me"
-import Portafolio from "../components/portafolio"
+import Portafolio from "../components/Portafolio"
 import Contacto from "../components/Contacto"
 import MyDates from "../components/MyDates"
 import Skills from "../components/skills"
