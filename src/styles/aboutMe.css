@@ -1,0 +1,22 @@
+.main-about{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.sobre-mi{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.sobre-mi h4{
+    color: lightgray;
+    font-size: 12px;
+}
+.sobre-mi h3{
+    color:teal ;
+    font-size: 30px;
+}

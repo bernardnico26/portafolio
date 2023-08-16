@@ -1,0 +1,22 @@
+.portafolio-data{
+    display: flex;
+    flex-direction: column;
+}
+.portafolio-data h2{
+    font-size: 70px;
+}
+.slider{
+    display: flex;
+    width: 100%;
+    aspect-ratio: 10/16;
+    position: relative;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+}
+.slider img{
+    width: 100%;
+    left: 0;
+    position: sticky;
+    object-fit: contain;
+    scroll-snap-align: center;
+}
