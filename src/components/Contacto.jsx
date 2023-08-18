@@ -19,9 +19,9 @@ const Contacto= () => {
     return (
       <main className="main-contact">
         <section className='contact section' id="contacto">
-            <h2 className='section__title'>
+            <h4 className='section__title'>
               contactate <span>conmigo</span>
-            </h2>
+            </h4>
             
             <form className="form-mail" onSubmit={sendEmail}>
               <div>

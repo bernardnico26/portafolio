@@ -7,6 +7,9 @@
     justify-content: center;
     align-items: center;
 }
+.contact .section__title{
+    font-size: var(--h3-font-size)
+}
 .contact-data{
     height: 100%;
     width: 100%;
@@ -63,4 +66,11 @@ form{
 .button_form{
     background-color: var(--first-color);
     height: 30px;
+}
+
+/*medias*/
+@media screen and (min-width: 768px) {
+.contact .section__title{
+    font-size: var(--big-font-size)
+}
 }

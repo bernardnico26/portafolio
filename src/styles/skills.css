@@ -11,7 +11,7 @@
     row-gap: 48px;
 }
 .bx{
-    font-size: 200px;
+    font-size: 20px;
 }
 .bxl-javascript{
     color: yellow;
@@ -36,5 +36,8 @@
 @media screen and (min-width: 1024px) {
 .skills__container {
     grid-template-columns: repeat(3, 1fr);
+}
+.bx{
+    font-size: 200px;
 }
 }
