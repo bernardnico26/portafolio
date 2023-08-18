@@ -5,7 +5,7 @@ const Me = () => {
     return (
       <main className="main-principal-data" >
         <section className="principal-data section grid" id="home">
-          <img src="./assets/developerPhoto.png" alt=""  className='home__img' />
+          <img src="/developerPhoto.png" alt="" className='home__img'/>
 
           <div className='home__content'>
             <div className='home__data'>
