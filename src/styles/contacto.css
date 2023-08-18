@@ -44,7 +44,6 @@ form{
     border-style: none;
     background-color: rgba(165, 247, 219, 0.295);
     color: white;
-    padding: 5px;
     width: 100%;
 }
 .contact-data form textarea{
@@ -53,7 +52,6 @@ form{
     color: white;
     min-height: 100px;
     width: 100%;
-    padding: 5px;
 }
 .contact-data form button{
     border-style: none;

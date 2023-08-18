@@ -3,7 +3,7 @@ import "../styles/aboutMe.css"
 const MyDates= () => {
 
     return (
-        <main className="main-about">
+        <main className="main-about container">
             <section className='about_me' id="misdatos">
                 <h2 className='section__title'>
                     Sobre <span>Mí</span>
@@ -13,35 +13,38 @@ const MyDates= () => {
                     <div className='about__info'>
                         <h3 className='section__subtitle'>Info Personal</h3>
 
-                        <ul className='info__list grid'>
-                            <div>
-                                <li>
-                                    <span className='info__title'>Nombre Completo:</span>
-                                    <span className='info__description'>Nicolás Bernard</span>
-                                </li>
-                                <li>
-                                    <span className='info__title'>Edad:</span>
-                                    <span className='info__description'>23 años</span>
-                                </li>
-                                <li>
-                                    <span className='info__title'>Locación:</span>
-                                    <span className='info__description'>Buenos Aires, Argentina</span>
-                                </li>
+                        <ul >
+                            <div className='info__list'>
+                                <div>
+                                    <li>
+                                        <span className='info__title'>Nombre Completo:</span>
+                                        <span className='info__description'>Nicolás Bernard</span>
+                                    </li>
+                                    <li>
+                                        <span className='info__title'>Edad:</span>
+                                        <span className='info__description'>23 años</span>
+                                    </li>
+                                    <li>
+                                        <span className='info__title'>Locación:</span>
+                                        <span className='info__description'>Buenos Aires, Argentina</span>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li>
+                                        <span className='info__title'>dispobilidad:</span>
+                                        <span className='info__description'>buscando un nuevo trabajo</span>
+                                    </li>
+                                    <li>
+                                        <span className='info__title'>Puesto:</span>
+                                        <span className='info__description'>Front-End</span>
+                                    </li>
+                                    <li>
+                                        <span className='info__title'>Modalidad:</span>
+                                        <span className='info__description'>virtual o presencial</span>
+                                    </li>
+                                </div>
                             </div>
-                            <div>
-                                <li>
-                                    <span className='info__title'>dispobilidad:</span>
-                                    <span className='info__description'>buscando un nuevo trabajo</span>
-                                </li>
-                                <li>
-                                    <span className='info__title'>Puesto:</span>
-                                    <span className='info__description'>Front-End</span>
-                                </li>
-                                <li>
-                                    <span className='info__title'>Modalidad:</span>
-                                    <span className='info__description'>virtual o presencial</span>
-                                </li>
-                            </div>
+                            
                         </ul>
 
                         <a href="./src/assets/curriculum_nicolas_bernard.pdf" download='' className='button'>

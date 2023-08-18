@@ -1,5 +1,8 @@
-.skills{
+.main-skills{
     height: 100vh;
+}
+.skills{
+    height: 100%;
 }
 .subtitle__center {
     text-align: center;
@@ -33,7 +36,7 @@
 }
 
 /*medias*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
 .skills__container {
     grid-template-columns: repeat(3, 1fr);
 }
