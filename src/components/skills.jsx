@@ -4,19 +4,36 @@ const Skills= () => {
 
     return (
         <main className="main-skills">
-            <div className="skills-data" id="habilidades">
-                <h2>
-                    SKILLS
-                </h2>
-                <div className="skills-icons">
-                    <h3><i className='bx bxl-javascript'></i></h3>
-                    <h3><i className='bx bxl-html5'></i></h3>
-                    <h3><i className='bx bxl-css3' ></i></h3>
-                    <h3><i className='bx bxl-react'></i></h3>
-                    <h3><i className='bx bxl-github' ></i></h3>
-                    <h3><i className='bx bxl-redux' ></i></h3>
+            <section className="skills" id="habilidades">
+                <h3 className='section__subtitle subtitle__center'>My Skills</h3>
+
+                <div className='skills__container grid'>
+                    <div>
+                        <span><i className='bx bxl-javascript'></i></span>
+                        <h3 className='skills__title'>javascript</h3>
+                    </div>
+                    <div>
+                        <span><i className='bx bxl-html5'></i></span>
+                        <h3 className='skills__title'>html</h3>
+                    </div>
+                    <div>
+                        <span><i className='bx bxl-css3' ></i></span>
+                        <h3 className='skills__title'>css</h3>
+                    </div>
+                    <div>
+                        <span><i className='bx bxl-react'></i></span>
+                        <h3 className='skills__title'>react</h3>
+                    </div>
+                    <div>
+                        <span><i className='bx bxl-github' ></i></span>
+                        <h3 className='skills__title'>github</h3>
+                    </div>
+                    <div>
+                        <span><i className='bx bxl-redux' ></i></span>
+                        <h3 className='skills__title'>redux</h3>
+                    </div>
                 </div>
-            </div>
+            </section>
         
         </main>
     )

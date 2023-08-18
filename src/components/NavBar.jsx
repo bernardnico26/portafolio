@@ -16,27 +16,27 @@ const NavBar = () => {
             <ul className={`nav__menu ${isOpen ? "open" : ""}`}>
                 <li className="nav__menu__item">
                     <a href="#home" className="nav__link">
-                        Home
+                        <h3 className='nav__name'>Home</h3>
                     </a>
                 </li>
                 <li className="nav__menu__item">
                     <a href="#misdatos" className="nav__link">
-                        mis datos
+                        <h3 className='nav__name'>mis datos</h3>
                     </a>
                 </li>
                 <li className="nav__menu__item">
                     <a href="#habilidades" className="nav__link">
-                        habilidades
+                        <h3 className='nav__name'>habilidades</h3>
                     </a>
                 </li>
                 <li className="nav__menu__item">
                     <a href="#portafolio" className="nav__link">
-                        Portafolio
+                        <h3 className='nav__name'>Portafolio</h3>
                     </a>
                 </li>
                 <li className="nav__menu__item">
                     <a href="#contacto" className="nav__link">
-                        Contacto
+                        <h3 className='nav__name'>Contacto</h3>
                     </a>
                 </li>
                 

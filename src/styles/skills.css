@@ -1,23 +1,14 @@
-.main-skills{
+.skills{
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.skills-data{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    color: white;
+.subtitle__center {
+    text-align: center;
+    
 }
-.skills-icons{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 90%;
+.skills__container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 48px;
 }
 .bx{
     font-size: 200px;
@@ -39,4 +30,11 @@
 }
 .bxl-redux{
     color: darkslateblue;
+}
+
+/*medias*/
+@media screen and (min-width: 1024px) {
+.skills__container {
+    grid-template-columns: repeat(3, 1fr);
+}
 }

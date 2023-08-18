@@ -2,7 +2,9 @@ nav {
     display: flex;
     justify-content: flex-end;
     position: fixed;
+    background-color: var(--container-color);
     width: 100vw;
+    z-index: 1000;
 }
 nav button {
     width: 30px;
@@ -10,7 +12,7 @@ nav button {
     border: none;
     background-color: transparent;
     font-size: 32px;
-    color:teal;
+    
     margin: 10px 30px;
 }
 nav button i {
@@ -26,7 +28,7 @@ nav button i:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: transparent;
+    background-color: var(--container-color);
     position: fixed;
     top: 50px;
     width: 100%;
@@ -41,15 +43,22 @@ nav button i:hover {
 }
 .nav__link {
     text-decoration: none;
-    color: teal;
+    border-bottom: 1px solid var(--border-color);
     font-size: 22px;
     font-weight: 600;
 }
 .open {
     left: 0;
 }
+.dark-theme .nav__link {
+    border-color: hsl(0, 0%, 20%);
+}
+.nav__name {
+    color: var(--title-color);
+    font-size: 24px;
+}
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .nav__toggle {
         display: none;
     }

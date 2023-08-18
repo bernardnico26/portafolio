@@ -1,6 +1,10 @@
+.main-portafolio{
+    height: 100vh;
+}
 .portafolio-data{
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 .portafolio-data h2{
     font-size: 70px;
@@ -14,7 +18,7 @@
     scroll-snap-type: x mandatory;
 }
 .slider img{
-    width: 100%;
+    width: 50%;
     left: 0;
     position: sticky;
     object-fit: contain;
