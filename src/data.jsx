@@ -11,7 +11,7 @@ import Theme10 from './assets/yellow.png';
 
 import project1 from '/ecom.png'
 import project2 from '/pokedex.png'
-import project3 from '/ricky.png'
+import project3 from '/rickymorty.png'
 import project4 from '/weather.png'
 
   export const themes = [
