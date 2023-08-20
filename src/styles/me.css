@@ -21,9 +21,8 @@
 .home__data {
     max-width: 600px;
     margin-inline: auto;
-    padding-top: 20px;
-    padding-right: 40px;
-    display: inline;
+    padding:20px
+    
 }
 .home__title {
     position: relative;
@@ -50,12 +49,12 @@
     background-color: var(--body-color);
     height: 0;
     width: 0;
-    z-index: -1;
+    z-index: -2;
 }
 @media screen and (max-width: 450px) {
     
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 830px) {
     .principal-data{
         grid-template-columns: 4.32fr 7.68fr;
         align-items: center;

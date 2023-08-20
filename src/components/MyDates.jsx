@@ -47,12 +47,15 @@ const MyDates= () => {
                             
                         </ul>
 
-                        <a href="./src/assets/curriculum_nicolas_bernard.pdf" download='' className='button'>
-                            Descargar Cv
-                            <span className='button__icon'>
-                                <i className="fa-solid fa-download"></i>
-                            </span>
-                        </a>
+                        <div className="download__section">
+                            <a href="./curriculum_nicolas_bernard.pdf" download='' className='button'>
+                                Descargar Cv
+                                <span className='button__icon'>
+                                    <i className="fa-solid fa-download"></i>
+                                </span>
+                            </a>
+                        </div>
+                        
                     </div>
 
                     <div className='my description grid'>

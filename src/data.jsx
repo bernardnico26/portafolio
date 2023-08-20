@@ -1,5 +1,3 @@
-
-
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
 import Theme3 from './assets/blueviolet.png';
@@ -11,7 +9,12 @@ import Theme8 from './assets/orange.png';
 import Theme9 from './assets/green.png';
 import Theme10 from './assets/yellow.png';
 
-const themes = [
+import project1 from '/ecom.png'
+import project2 from '/pokedex.png'
+import project3 from '/ricky.png'
+import project4 from '/weather.png'
+
+  export const themes = [
   {
     id: 1,
     img: Theme1,
@@ -73,4 +76,121 @@ const themes = [
   },
 ];
 
-export default themes
+  export  const portfolio = [
+  {
+    id: "selector-1",
+    dire:"item-1",
+    img: project1,
+    title: 'e-commerce',
+    details: [
+      {
+        icon: <span className='item__icon'><i className='bx bx-file' ></i></span>,
+        title: 'Project : ',
+        desc: 'E-commerce',
+      },
+      {
+        icon: <span className='item__icon'><i className='bx bx-code-alt' ></i></span>,
+        title: 'Lenguaje : ',
+        desc: 'React js',
+      },
+      {
+        icon: <span className='item__icon'><i className='bx bx-library'></i></span>,
+        title: 'Librerias : ',
+        desc: 'Axios react-Hook-Form React-Router Redux Bootstrap bootswatch',
+      },
+      {
+        icon: <span className='item__icon'><i className='bx bx-link' ></i></span>,
+        title: 'Link : ',
+        desc: `https://nicolasbernardportafolio.netlify.app/`,
+      },
+    ],
+  },
+
+  {
+    id: "selector-2",
+    dire:"item-2",
+    img: project2,
+    title: 'pokedex',
+    details: [
+      {
+        icon: <span className='item__icon'><i className='bx bx-file' ></i></span>,
+        title: 'Project : ',
+        desc: 'Pokedex',
+      },
+      {
+        icon: <span className='item__icon'><i className='bx bx-code-alt' ></i></span>,
+        title: 'Lenguaje : ',
+        desc: 'React js',
+      },
+      {
+        icon: <span className='item__icon'><i className='bx bx-library'></i></span>,
+        title: 'Librerias : ',
+        desc: 'Axios React-Router Redux',
+      },
+      {
+        icon: <span className='item__icon'><i className='bx bx-link' ></i></span>,
+        title: 'Link : ',
+        desc: `https://pokedex-nb-ap.netlify.app/`,
+      },
+    ],
+  },
+
+  {
+    id: "selector-3",
+    dire:"item-3",
+    img: project3,
+    title: 'rick and morty Locations',
+    details: [
+      {
+        icon: <span className='item__icon'><i className='bx bx-file' ></i></span>,
+        title: 'Project : ',
+        desc: 'Rick and Morty Locations',
+      },
+      {
+        icon: <span className='item__icon'><i className='bx bx-code-alt' ></i></span>,
+        title: 'Lenguaje : ',
+        desc: 'React js',
+      },
+      {
+        icon: <span className='item__icon'><i className='bx bx-library'></i></span>,
+        title: 'Librerias : ',
+        desc: 'Axios',
+      },
+      {
+        icon: <span className='item__icon'><i className='bx bx-link' ></i></span>,
+        title: 'Link : ',
+        desc: `https://rickandmortylocations-nb.netlify.app/`,
+      },
+    ],
+  },
+
+  {
+    id: "selector-4",
+    dire:"item-4",
+    img: project4,
+    title: 'weather Page',
+    details: [
+      {
+        icon: <span className='item__icon'><i className='bx bx-file' ></i></span>,
+        title: 'Project : ',
+        desc: 'Weather Page',
+      },
+      {
+        icon: <span className='item__icon'><i className='bx bx-code-alt' ></i></span>,
+        title: 'Lenguaje : ',
+        desc: 'React js',
+      },
+      {
+        icon: <span className='item__icon'><i className='bx bx-library'></i></span>,
+        title: 'Librerias : ',
+        desc: 'Axios',
+      },
+      {
+        icon: <span className='item__icon'><i className='bx bx-link' ></i></span>,
+        title: 'Link : ',
+        desc: `https://weather-page-nicolas-bernard.netlify.app/`,
+      },
+    ],
+  },
+];
+

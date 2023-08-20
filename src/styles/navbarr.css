@@ -3,7 +3,7 @@ nav {
     justify-content: flex-end;
     position: fixed;
     background-color: var(--container-color);
-    width: 100vw;
+    width: 100%;
     z-index: 1000;
 }
 nav button {

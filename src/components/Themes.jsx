@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import themes  from '../data';
+import { themes } from '../data';
 import ThemeItem from './ThemeItem';
 import "../styles/themes.css"
 

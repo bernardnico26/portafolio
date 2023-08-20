@@ -66,18 +66,20 @@
     font-size: var(--big-font-size);
     font-weight: var(--weight-800);
     text-align: center;
-    margin-bottom: 70px;
+    
 }
 
 .section__title span {
     color: var(--first-color);
 }
-
+main, input, textarea {
+    padding: 5px;
+}
 body, input, textarea {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     font-weight: var(--weight-500);
-    padding: 5px;
+    
 }
 body {
     background-color: var(--body-color);
@@ -150,7 +152,7 @@ img {
     line-height: 60px;
 }
 section[id] {
-    scroll-margin-top: 50px;
+    scroll-margin-top: 25px;
 }
 .info__description {
     color: var(--title-color);

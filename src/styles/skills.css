@@ -3,6 +3,9 @@
 }
 .skills{
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .subtitle__center {
     text-align: center;
@@ -37,10 +40,28 @@
 
 /*medias*/
 @media screen and (min-width: 768px) {
-.skills__container {
-    grid-template-columns: repeat(3, 1fr);
-}
-.bx{
-    font-size: 200px;
-}
+    .main-skills{
+        height: 90vh;
+    }
+    .skills__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .bxl-javascript{
+        font-size: 200px;
+    }
+    .bxl-html5{
+        font-size: 200px;
+    }
+    .bxl-css3{
+        font-size: 200px;
+    }
+    .bxl-react{
+        font-size: 200px;
+    }
+    .bxl-github{
+        font-size: 200px;
+    }
+    .bxl-redux{
+        font-size: 200px;
+    }
 }

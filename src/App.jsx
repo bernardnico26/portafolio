@@ -8,11 +8,11 @@ import './App.css'
 function App() {
   
   return (
-    <main>
+    <>
       <NavBar/>
       <Themes />
       <Home/>
-    </main>
+    </>
    
   )
 }

@@ -14,8 +14,7 @@ const Me = () => {
               </h1>
 
               <p className='home__description'>
-                Actualmente soy un Front-End Developer, cuento con experiencia en tecnologías como React JS y Redux,
-                esto me puede permitir ayudar a las empresas a mejorar la experiencia del usuario.
+                Soy un Front-End Developer muy apasionado por lo que hago, la vida me llevo a transitar diferentes trabajos, pero ninguno me generó lo que la programacion hace.
               </p>
 
               <a href="#misdatos" className='button'>
