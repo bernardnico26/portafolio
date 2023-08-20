@@ -1,7 +1,7 @@
 import Me from "../components/Me"
 import Portafolio from "../components/Portafolio"
 import Contacto from "../components/Contacto"
-import MyDates from "../components/MyDates"
+import AboutMe from "../components/AboutMe"
 import Skills from "../components/skills"
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
               <a href="https://wa.me/1133298630" className="link-contact whatsapp"><i className='bx bxl-whatsapp'></i></a>
       </div>*/}
       <Me/>
-      <MyDates/>
+      <AboutMe/>
       <Skills/>
       <Portafolio/>
       <Contacto/>

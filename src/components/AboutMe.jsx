@@ -1,6 +1,6 @@
 import "../styles/aboutMe.css"
 
-const MyDates= () => {
+const AboutMe= () => {
 
     return (
         <main className="main-about container">
@@ -15,30 +15,30 @@ const MyDates= () => {
 
                         <ul >
                             <div className='info__list'>
-                                <div>
-                                    <li>
+                                <div className="info__section">
+                                    <li className="data__list">
                                         <span className='info__title'>Nombre Completo:</span>
                                         <span className='info__description'>Nicolás Bernard</span>
                                     </li>
-                                    <li>
+                                    <li className="data__list">
                                         <span className='info__title'>Edad:</span>
                                         <span className='info__description'>23 años</span>
                                     </li>
-                                    <li>
+                                    <li className="data__list">
                                         <span className='info__title'>Locación:</span>
                                         <span className='info__description'>Buenos Aires, Argentina</span>
                                     </li>
                                 </div>
-                                <div>
-                                    <li>
-                                        <span className='info__title'>dispobilidad:</span>
-                                        <span className='info__description'>buscando un nuevo trabajo</span>
+                                <div div className="info__section">
+                                    <li className="data__list">
+                                        <span className='info__title'>estado laboral:</span>
+                                        <span className='info__description'>disponible</span>
                                     </li>
-                                    <li>
+                                    <li className="data__list">
                                         <span className='info__title'>Puesto:</span>
                                         <span className='info__description'>Front-End</span>
                                     </li>
-                                    <li>
+                                    <li className="data__list">
                                         <span className='info__title'>Modalidad:</span>
                                         <span className='info__description'>virtual o presencial</span>
                                     </li>
@@ -48,8 +48,8 @@ const MyDates= () => {
                         </ul>
 
                         <div className="download__section">
-                            <a href="./curriculum_nicolas_bernard.pdf" download='' className='button'>
-                                Descargar Cv
+                            <a href="./CV_NB.pdf" download='' className='button'>
+                                <span className="text__button">Descargar Cv</span>
                                 <span className='button__icon'>
                                     <i className="fa-solid fa-download"></i>
                                 </span>
@@ -58,18 +58,18 @@ const MyDates= () => {
                         
                     </div>
 
-                    <div className='my description grid'>
+                    <div className='my__description'>
                         <h3 className='section__subtitle'>Un poco de mí</h3>
-                        <div>
-                            <h4>
-                                Actualmente soy un Front-End Developer, cuento con experiencia en tecnologías como React JS y Redux, esto me puede permitir ayudar a las empresas a mejorar la experiencia del usuario. Mi enfoque se basa en la disciplina y el compromiso, lo que me ha llevado a brindar lo mejor de mi en cada proyecto, entregando todo de mi siempre y asi llegar al mejor resultado posible.
-                            </h4>
-                            <h4>
+                        <div className="My__description_data">
+                            <p>
+                                Actualmente soy un Front-End Developer. Mi enfoque se basa en la disciplina y el compromiso, lo que me ha llevado a brindar lo mejor de mi en cada proyecto, para llegar al mejor resultado posible.
+                            </p>
+                            <p>
                                 Soy una persona que se apasiona por la programacion, por lo que siempre estoy dispuesto a aprender y mantenerme actualizado en las últimas tendencias y tecnologías.
-                            </h4>
-                            <h4>
+                            </p>
+                            <p>
                                 Mi objetivo es trabajar en proyectos desafiantes que me permitan poder desplegar mis habilidades y conocimientos, y de esta forma crear soluciones innovadoras que satisfagan las necesidades de los usuarios. Si buscas un profesional comprometido y apasionado, ¡no dudes en contactarme!
-                            </h4>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -80,4 +80,4 @@ const MyDates= () => {
     )
 }
 
-export default MyDates
+export default AboutMe

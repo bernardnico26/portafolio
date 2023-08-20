@@ -54,7 +54,7 @@
 @media screen and (max-width: 450px) {
     
 }
-@media screen and (min-width: 830px) {
+@media screen and (min-width: 840px) {
     .principal-data{
         grid-template-columns: 4.32fr 7.68fr;
         align-items: center;

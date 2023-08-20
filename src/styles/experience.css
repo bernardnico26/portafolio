@@ -1,0 +1,32 @@
+.Experience_section{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Experiences{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.Experience{
+    display:flex ;
+    flex-direction: column;
+    gap: 5px;
+}
+.Title_exp{
+    color: var(--first-color);
+}
+
+/*medias*/
+@media screen and (min-width: 768px) {
+    .Experiences{
+        flex-direction: initial;
+        justify-content: space-evenly;
+    }
+    .Experience{
+        width: 30%;
+    }
+}

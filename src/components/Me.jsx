@@ -14,13 +14,14 @@ const Me = () => {
               </h1>
 
               <p className='home__description'>
-                Soy un Front-End Developer muy apasionado por lo que hago, la vida me llevo a transitar diferentes trabajos, pero ninguno me generó lo que la programacion hace.
+                Soy un Front-End Developer muy apasionado por lo que hago, la vida me llevo a transitar diferentes trabajos, pero ninguno me generó lo que hace la programacion.
               </p>
 
               <a href="#misdatos" className='button'>
-                Mas datos{' '}
+                
+                <span className="text__button">Mas datos{' '}</span>
                 <span className='button__icon'>
-                <i className="fa-solid fa-arrow-right"></i>
+                  <i className="fa-solid fa-arrow-right"></i>
                 </span>
               </a>
             </div>
