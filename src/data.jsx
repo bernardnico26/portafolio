@@ -9,10 +9,10 @@ import Theme8 from './assets/orange.png';
 import Theme9 from './assets/green.png';
 import Theme10 from './assets/yellow.png';
 
-import project1 from '/ecomerce.png'
-import project2 from '/pokedex.png'
-import project3 from '/rickymorty.png'
-import project4 from '/weather.png'
+import project1 from './assets/ecomerce.png'
+import project2 from './assets/pokedex.png'
+import project3 from './assets/rickymorty.png'
+import project4 from './assets/weather.png'
 
   export const themes = [
   {
