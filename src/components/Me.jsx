@@ -9,9 +9,14 @@ const Me = () => {
 
           <div className='home__content'>
             <div className='home__data'>
-              <h1 className='home__title'>
-                <span>Hola soy Nicolas Bernard</span> Front-End Developer
-              </h1>
+              <div className='home__title'>
+                <h1 >
+                  Hola Soy Nicolas Bernard
+                </h1>
+                
+                <span>Front-End Developer</span>
+              </div>
+              
 
               <p className='home__description'>
                 Soy un Front-End Developer muy apasionado por lo que hago, la vida me llevo a transitar diferentes trabajos, pero ninguno me generó lo que hace la programacion.

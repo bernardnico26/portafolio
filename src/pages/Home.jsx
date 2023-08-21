@@ -2,7 +2,7 @@ import Me from "../components/Me"
 import Portafolio from "../components/Portafolio"
 import Contacto from "../components/Contacto"
 import AboutMe from "../components/AboutMe"
-import Skills from "../components/skills"
+import Experience_skills from "../components/Experience_Skills"
 
 const Home = () => {
   
@@ -14,7 +14,7 @@ const Home = () => {
       </div>*/}
       <Me/>
       <AboutMe/>
-      <Skills/>
+      <Experience_skills/>
       <Portafolio/>
       <Contacto/>
     </section>

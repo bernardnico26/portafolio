@@ -8,6 +8,7 @@
     grid-template-columns: 1fr;
     justify-items: center;
     row-gap: 10px;
+    height: 100%;
 }
 .home__img {
     width: 150px;
@@ -19,7 +20,7 @@
     z-index: 1;
 }
 .home__data {
-    max-width: 600px;
+    max-width: 760px;
     margin-inline: auto;
     padding:20px
     
@@ -55,11 +56,14 @@
     
 }
 @media screen and (min-width: 840px) {
+    .main-principal-data {
+        height: 90vh;
+    }
     .principal-data{
         grid-template-columns: 4.32fr 7.68fr;
         align-items: center;
         padding: 40px;
-        height: 100vh;
+        height: 90vh;
     }
     .home__img {
         position: relative;
@@ -71,13 +75,13 @@
     }
     .color__block {
         width: 420px;
-        height: 698px;
+        height: 90vh;
         top: 100px;
         left: 0;
     }
     .color__block2{
         width: 420px;
-        height: 738px;
+        height: 100vh;
         left: 300px;
         top: 30px;
         transform: rotate(-15deg);

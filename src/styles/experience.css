@@ -1,3 +1,18 @@
+.bastida{
+    text-align: center;
+    font-family: bastida-font;
+    font-size: var(--big-font-size);
+}
+.company{
+    font-size: var(--big-font-size);
+}
+.drop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--big-font-size);
+}
 .Experience_section{
     margin-top: 25px;
     display: flex;
@@ -14,7 +29,25 @@
 .Experience{
     display:flex ;
     flex-direction: column;
+    justify-content: space-b	;
+    align-items: center;
     gap: 5px;
+}
+.Title_exp{
+    visibility: hidden;
+    opacity: 0;
+}
+.description__labor{
+    visibility: hidden;
+    opacity: 0;
+}
+.drop:hover ~ .Title_exp{
+    visibility:visible;
+    opacity: 1;
+}
+.drop:hover ~ .description__labor{
+    visibility:visible;
+    opacity: 1;
 }
 .Title_exp{
     color: var(--first-color);

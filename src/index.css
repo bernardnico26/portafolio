@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: bastida-font;
+    src: url(/public/SonicBT-ExtraBold.otf);
+}
 
 /*variables*/
 
@@ -72,6 +76,11 @@
 
 .section__title span {
     color: var(--first-color);
+}
+.section__subtitle {
+    font-size: var(--h3-font-size);
+    font-weight: var(--weight-600);
+    margin-top: 10px;
 }
 main, input, textarea {
     padding: 5px;

@@ -1,12 +1,5 @@
-.main-skills{
-    height: 100vh;
-}
-.skills{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
+
+
 .skills__data{
     display: flex;
     flex-direction: column;
@@ -56,9 +49,7 @@
 
 /*medias*/
 @media screen and (min-width: 768px) {
-    .main-skills{
-        height: 90vh;
-    }
+    
     .skills__container {
         grid-template-columns: repeat(3, 1fr);
     }
