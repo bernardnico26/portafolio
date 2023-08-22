@@ -69,7 +69,21 @@ form{
     background-color: var(--first-color);
     height: 30px;
 }
-
+.section__textarea{
+    display: flex;
+    gap: 10px;
+}
+.text__area__section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text__area{
+    border: solid 2px ;
+    border-color: var(--text-color);
+    width: 100%;
+}
 /*medias*/
 @media screen and (min-width: 768px) {
 .contact .section__title{

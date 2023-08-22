@@ -20,7 +20,7 @@
     z-index: 1;
 }
 .home__data {
-    max-width: 760px;
+    max-width: 700px;
     margin-inline: auto;
     padding:20px
     
@@ -28,8 +28,10 @@
 .home__title {
     position: relative;
     font-size: var(--h1-font-size);
-    line-height: 1.24;
-    padding-left: 70px;
+    line-height: 1.2;
+}
+.name{
+    margin-left: 45px;
 }
 .home__title span {
     color: var(--first-color);
@@ -64,6 +66,9 @@
         align-items: center;
         padding: 40px;
         height: 90vh;
+    }
+    .name{
+        margin-left: 0;
     }
     .home__img {
         position: relative;

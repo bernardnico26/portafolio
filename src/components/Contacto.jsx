@@ -38,9 +38,12 @@ const Contacto= () => {
               
               <hr />
 
-              <div>
+              <div className="section__textarea">
                 <label><span className='info__description'>mensaje</span></label>
-                <textarea name="message" {...register("message",{ required: true })}/>
+                <div className="text__area__section">
+                  <textarea name="message" {...register("message",{ required: true })} className="text__area"/>
+                </div>
+                
               </div>
               
               <hr />

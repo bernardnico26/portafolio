@@ -10,7 +10,7 @@ const Me = () => {
           <div className='home__content'>
             <div className='home__data'>
               <div className='home__title'>
-                <h1 >
+                <h1 className="name">
                   Hola Soy Nicolas Bernard
                 </h1>
                 

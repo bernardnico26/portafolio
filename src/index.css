@@ -114,9 +114,6 @@ a {
     text-decoration: none;
 }
 
-img {
-    max-width: 100%;
-}
 .button {
     display: inline-block;
     color: var(--title-color);
@@ -179,6 +176,9 @@ section[id] {
 
 /*medias*/
 @media screen and (min-width: 768px) {
+    
+}
+@media screen and (min-width: 1024px) {
     :root{
         --big-font-size: 56px;
         --h1-font-size: 70px;
@@ -191,9 +191,6 @@ section[id] {
         --smaller-font-size: 14px;
         --tiny-font-size: 12px;
     }
-}
-@media screen and (min-width: 1024px) {
-    
     section[id] {
         scroll-margin-top: 100px;
     }
