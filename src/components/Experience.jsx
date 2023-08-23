@@ -8,7 +8,7 @@ const Experience = () =>{
                 </h3>
                 <div className="Experiences">
                     <div className="Experience">
-                        <h3 className="company">Interflex GP</h3>
+                        <img src="/logo_interflex.jpg" alt="" className="company"/>
                         <button className="drop">
                             <p><i className='bx bx-chevron-down'></i></p> 
                         </button>
@@ -16,7 +16,7 @@ const Experience = () =>{
                         <p className="description__labor">Realizo la mismas labores como maquinista de insoladora, ademas testeo el tiempo y la efectividad al emplear acido y líquidos químicos sobre el fotopolímero. Y finalmente corroboro que se hayan preparado los adecuados polimeros que se deben despachar a las fabricas.</p>
                     </div>
                     <div className="Experience">
-                        <h3 className="company">Interflex GP</h3>
+                        <img src="/logo_interflex.jpg" alt="" className="company"/>
                         <button className="drop">
                             <p><i className='bx bx-chevron-down'></i></p> 
                         </button>

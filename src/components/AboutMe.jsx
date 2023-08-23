@@ -68,11 +68,17 @@ const AboutMe= () => {
                                 Soy una persona que se apasiona por la programacion, por lo que siempre estoy dispuesto a aprender y mantenerme actualizado en las últimas tendencias y tecnologías.
                             </p>
                             <p>
-                                Mi objetivo es trabajar en proyectos desafiantes que me permitan poder desplegar mis habilidades y conocimientos, y de esta forma crear soluciones innovadoras que satisfagan las necesidades de los usuarios. Si buscas un profesional comprometido y apasionado, ¡no dudes en contactarme!
+                                Mi objetivo es trabajar en proyectos desafiantes que me permitan poder desplegar mis habilidades y conocimientos, y de esta forma crear soluciones innovadoras que satisfagan las necesidades de los usuarios.
                             </p>
                         </div>
                     </div>
                 </div>
+                <div className="showw">
+                        <div className="text__container">
+                            <span className="titlee">Si buscas un profesional comprometido y apasionado, ¡no dudes en contactarme!</span>
+                        </div>
+                        
+                    </div>
             </section>
             
         

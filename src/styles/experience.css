@@ -1,10 +1,13 @@
 .bastida{
     text-align: center;
     font-family: bastida-font;
-    font-size: var(--big-font-size);
+    font-size: 56px;
+    box-shadow: 2px 2px 8px var(--title-color );
+    width: 100%;
 }
 .company{
-    font-size: var(--big-font-size);
+    width: 100%;
+    box-shadow: 2px 2px 8px var(--title-color );
 }
 .drop{
     display: flex;
@@ -12,6 +15,7 @@
     justify-content: center;
     align-items: center;
     font-size: var(--big-font-size);
+    color: var(--first-color);
 }
 .Experience_section{
     margin-top: 25px;

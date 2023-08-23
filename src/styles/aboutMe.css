@@ -68,6 +68,31 @@ grid-template-columns: 1fr;
     
     gap: 10px;
 }
+.showw{
+    margin-top: 10px;
+    background-color: var(--first-color);
+    width: 90vw;
+    height: 500px;
+    display: grid;    
+    place-items: center;
+    animation: show .5s 1s backwards reverse ease-in;
+}
+.titlee {
+    color: #fff;
+    font-size: 2rem;
+    animation: show .3s 1s backwards reverse;
+}
+
+@keyframes show {
+    from {
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    to{
+
+        clip-path:polygon(50% 0, 50% 0, 50% 100%, 50% 100%);
+        
+        }
+}
 /*medias*/
 @media screen and (min-width: 768px) {
     .main-about{

@@ -8,8 +8,9 @@ input[type=radio]{
     left: 0;
     position: sticky;
     border-radius: 10px;
-    
+    scroll-snap-align: center;
     cursor: pointer;
+    object-fit: cover;
 }
 .portfolio__img{
     height: 100%;
@@ -42,6 +43,7 @@ input[type=radio]{
     font-weight: var(--weight-500);
     transform: translateY(-20px);
     transition: all 0.5s ease;
+    text-align: center;
 }
 
 .modal__button{
