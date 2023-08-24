@@ -6,16 +6,16 @@ input[type=radio]{
     width: 100vw;
     height: 100%;
     left: 0;
-    position: sticky;
+    position: relative;
     border-radius: 10px;
     scroll-snap-align: center;
-    cursor: pointer;
     object-fit: cover;
+    margin-right: 10px;
 }
 .portfolio__img{
     height: 100%;
     width: 90vw;
-    object-fit: contain;
+    object-fit: cover;
 }
 .hover__content{
     height: 30%;
@@ -48,6 +48,7 @@ input[type=radio]{
 
 .modal__button{
     font-size: var(--h2-font-size);
+    cursor: pointer;
 }
 
 .card:hover .portfolio__title {
@@ -125,7 +126,6 @@ input[type=radio]{
         left: 0;
         right: 0;
         margin: auto;
-        cursor: pointer;
         transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     }
     
@@ -140,6 +140,7 @@ input[type=radio]{
         transform: translateX(-40%) scale(0.8);
         opacity: 0.6;
         z-index: 0;
+        cursor: pointer;
     }
     
     #item-3:checked ~ .cards #selector-4,
@@ -149,6 +150,7 @@ input[type=radio]{
         transform: translateX(40%) scale(0.8);
         opacity: 0.6;
         z-index: 0;
+        cursor: pointer;
     }
     
     #item-1:checked ~ .cards #selector-1,

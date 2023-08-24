@@ -1,14 +1,16 @@
 .main-principal-data{
     min-height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .principal-data{
     grid-template-columns: 1fr;
-    justify-items: center;
     row-gap: 10px;
+    width: 100%;
     height: 100%;
+}
+.home__content{
+    position:relative
 }
 .home__img {
     width: 150px;
@@ -18,20 +20,20 @@
     border-radius: 50%;
     box-shadow: 0 0 8px hsla(0, 0%, 0%, 0.3);
     z-index: 1;
+    clip-path: circle(0.0% at 50% 50%);
+    animation: apearmovile 1s 0.6s ease forwards;
 }
 .home__data {
     max-width: 700px;
     margin-inline: auto;
-    padding:20px
-    
+    padding:20px;
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+    animation: showe3 1s 0.6s cubic-bezier(1,-0.01, 0.85, 0.95) forwards;
 }
 .home__title {
     position: relative;
     font-size: var(--h1-font-size);
     line-height: 1.2;
-}
-.name{
-    margin-left: 45px;
 }
 .home__title span {
     color: var(--first-color);
@@ -46,14 +48,49 @@
     width: 100%;
     background-color: var(--first-color);
     z-index: -10;
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+    animation: showe3 0.8s cubic-bezier(1,-0.01, 0.85, 0.95) forwards;
 }
 .color__block2{
     position: absolute;
     background-color: var(--body-color);
     height: 0;
     width: 0;
-    z-index: -2;
+    z-index: -9;
 }
+.color__block3 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: var(--container-color);
+    z-index: -8;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    animation: showe3 0.8s cubic-bezier(1,-0.01, 0.85, 0.95) forwards;
+}
+
+@keyframes showe3 {
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+@keyframes showe1 {
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+@keyframes apear {
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+@keyframes apearmovile {
+    to{
+        clip-path: circle(50% at 50% 50%);
+    }
+}
+
 @media screen and (max-width: 450px) {
     
 }
@@ -64,25 +101,25 @@
     .principal-data{
         grid-template-columns: 4.32fr 7.68fr;
         align-items: center;
-        padding: 40px;
         height: 90vh;
-    }
-    .name{
-        margin-left: 0;
     }
     .home__img {
         position: relative;
         top: -10px;
         height: 80%;
         width: 80%;
+        margin-left: 20px;
         border-radius: 30px;
-        
+        clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+        animation: apear 1s 1s ease forwards;
     }
     .color__block {
         width: 420px;
         height: 90vh;
         top: 100px;
         left: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        animation: showe1 1s cubic-bezier(1,-0.01, 0.85, 0.95) forwards;
     }
     .color__block2{
         width: 420px;
@@ -92,6 +129,15 @@
         transform: rotate(-12deg);
         
     }
+    .color__block3 {
+        position: absolute;
+        right: 0;
+        background-color: var(--container-color);
+        z-index: -8;
+        clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+        animation: showe3 1s cubic-bezier(1,-0.01, 0.85, 0.95) forwards;
+    }
+
 }
 @media screen and (min-width: 1024px) {
     

@@ -32,13 +32,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 .projects__instructions{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
     padding: 10px;
+    font-size: var(--h4-font-size);
 }
 
 /*medias*/
@@ -80,6 +82,6 @@
         align-items: center;
     }
     .card{
-        box-shadow: 0 2px 8px var(--title-color );
+        box-shadow: 0 2px 8px var(--container-color );
     }
 }

@@ -72,18 +72,32 @@ grid-template-columns: 1fr;
     margin-top: 10px;
     background-color: var(--first-color);
     width: 90vw;
-    height: 500px;
+    height: 100%;
     display: grid;    
     place-items: center;
-    animation: show .5s 1s backwards reverse ease-in;
+    opacity: 0;
+    transform: translateY(20px);
+    padding: 20px;
 }
 .titlee {
     color: #fff;
-    font-size: 2rem;
-    animation: show .3s 1s backwards reverse;
+    font-size: var(--big-font-size);
+    animation: shower .3s 1s backwards reverse;
+    text-align: center;
+}
+.showw.visible {
+    opacity: 1;
+    transform: translateY(0);
+    animation: shower .5s 0.5s backwards reverse ease-in;
+}
+.text__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@keyframes show {
+
+@keyframes shower {
     from {
         clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }

@@ -30,7 +30,7 @@ const Portafolio = () => {
           </div>
         </div>
         <div className="projects__instructions">
-          <p> Para mas informacion toca la imagen si usas un dispositivo movil o pasa el cursor sobre la imagen si usas un computador</p>
+          <span> Para mas informacion toca la imagen si usas un dispositivo movil o pasa el cursor sobre la imagen si usas un computador</span>
         </div>
       </section>
     </section>

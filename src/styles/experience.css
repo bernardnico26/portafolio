@@ -1,8 +1,9 @@
 .bastida{
     text-align: center;
     font-family: bastida-font;
-    font-size: 56px;
+    font-size: 65px;
     box-shadow: 2px 2px 8px var(--title-color );
+    padding: 0 10px 0 10px;
     width: 100%;
 }
 .company{

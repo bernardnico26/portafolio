@@ -1,9 +1,27 @@
-import "../styles/aboutMe.css"
+import React, { useRef, useEffect, useState } from "react";
+import "../styles/aboutMe.css";
 
-const AboutMe= () => {
+const AboutMe = () => {
+  const showwRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
 
-    return (
-        <main className="main-about container">
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      const [entry] = entries;
+      setIsVisible(entry.isIntersecting);
+    });
+
+    if (showwRef.current) {
+      observer.observe(showwRef.current);
+    }
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
+  return (
+    <main className="main-about container">
             <section className='about_me' id="misdatos">
                 <h2 className='section__title'>
                     Sobre <span>Mí</span>
@@ -73,12 +91,15 @@ const AboutMe= () => {
                         </div>
                     </div>
                 </div>
-                <div className="showw">
-                        <div className="text__container">
-                            <span className="titlee">Si buscas un profesional comprometido y apasionado, ¡no dudes en contactarme!</span>
-                        </div>
-                        
+                <div
+                    ref={showwRef}
+                    className={`showw ${isVisible ? "visible" : ""}`}>
+                    <div className="text__container">
+                        <span className="titlee">
+                            Si buscas un profesional comprometido y apasionado, ¡no dudes en contactarme!
+                        </span>
                     </div>
+                </div>
             </section>
             
         
