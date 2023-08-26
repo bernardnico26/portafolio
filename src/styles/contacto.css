@@ -31,7 +31,9 @@
     color: teal;
     font-size: 70px;
 }
-
+label{
+    width: 94px;
+}
 form{
     width: 90%;
     display: flex;
@@ -63,7 +65,11 @@ form{
     height: 25px;
     cursor: pointer;
 }
-
+.input__section{
+    border: solid 1px ;
+    border-color: var(--text-color);
+    width: 100%;
+}
 .button_form{
     background-color: var(--first-color);
     height: 30px;
@@ -79,15 +85,15 @@ form{
     align-items: center;
 }
 .text__area{
-    border: solid 2px ;
+    border: solid 1px ;
     border-color: var(--text-color);
     width: 100%;
 }
 /*medias*/
 @media screen and (min-width: 426px) {
     form{
-        width: 70%;
-        height: 70%;
+        width: 40%;
+        height: 50%;
     }
 }
 @media screen and (min-width: 600px) {
@@ -99,18 +105,7 @@ form{
     }
 }
 @media screen and (min-width: 768px) {
-.contact .section__title{
-    font-size: var(--big-font-size)
-}
-}
-@media screen and (min-width: 1024px) {
-    form{
-        width: 50%;
-    }
-    .text__area__section{
-        height: 120px;
-    }
-    .text__area{
-        height: 100%;
+    .contact .section__title{
+        font-size: var(--big-font-size)
     }
 }

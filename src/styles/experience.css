@@ -1,7 +1,7 @@
 .bastida{
     text-align: center;
     font-family: bastida-font;
-    font-size: 65px;
+    font-size: var(--big-font-size);
     box-shadow: 2px 2px 8px var(--title-color );
     padding: 0 10px 0 10px;
     width: 100%;

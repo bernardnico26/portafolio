@@ -24,16 +24,20 @@ const Contacto= () => {
             </h2>
             
             <form className="form-mail" onSubmit={sendEmail}>
-              <div>
+            <div className="section__textarea">
                 <label><span className='info__description'>Nombre completo</span></label>
-                <input type="text" name="user_name" {...register("user_name",{ required: true })}/>
+                <div className="input__section">
+                  <input type="text" name="user_name" {...register("user_name",{ required: true })} className="input"/>
+                </div>
               </div>
               
               <hr />
 
-              <div>
+              <div className="section__textarea">
                 <label><span className='info__description'>Email</span></label>
-                <input type="email" name="user_email" {...register("user_email",{ required: true })}/>
+                <div className="input__section">
+                  <input type="email" name="user_email" {...register("user_email",{ required: true })} className="input"/>
+                </div>
               </div>
               
               <hr />
@@ -43,7 +47,6 @@ const Contacto= () => {
                 <div className="text__area__section">
                   <textarea name="message" {...register("message",{ required: true })} className="text__area"/>
                 </div>
-                
               </div>
               
               <hr />

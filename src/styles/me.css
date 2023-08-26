@@ -70,27 +70,6 @@
     animation: showe3 0.8s cubic-bezier(1,-0.01, 0.85, 0.95) forwards;
 }
 
-@keyframes showe3 {
-    to {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    }
-}
-@keyframes showe1 {
-    to {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    }
-}
-@keyframes apear {
-    to{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    }
-}
-@keyframes apearmovile {
-    to{
-        clip-path: circle(50% at 50% 50%);
-    }
-}
-
 @media screen and (max-width: 450px) {
     
 }

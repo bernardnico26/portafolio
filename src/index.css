@@ -19,7 +19,8 @@
     --container-color: hsl(0, 0%, 90%);
     --border-color: hsl(0, 0%, 87%);
     --text-white: #fff;
-
+    --twin-color-primary: #fff;
+    --twin-color-secundary: #000000;
     
 
     /** fuentes**/
@@ -51,6 +52,8 @@
     --body-color: hsl(0, 0%, 7%);
     --container-color: hsl(0, 1%, 17%);
     --border-color: hsl(0, 0%, 15%);
+    --twin-color-primary: #000000;
+    --twin-color-secundary: #fff;
 }
 /** compartidos **/
 .container {
@@ -172,6 +175,27 @@ section[id] {
 .info__description {
     color: var(--title-color);
     font-weight: var(--weight-600);
+}
+
+@keyframes showe3 {
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+@keyframes showe1 {
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+@keyframes apear {
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+@keyframes apearmovile {
+    to{
+        clip-path: circle(50% at 50% 50%);
+    }
 }
 
 /*medias*/

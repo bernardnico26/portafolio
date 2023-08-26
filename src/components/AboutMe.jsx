@@ -1,24 +1,7 @@
-import React, { useRef, useEffect, useState } from "react";
+
 import "../styles/aboutMe.css";
 
 const AboutMe = () => {
-  const showwRef = useRef(null);
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      const [entry] = entries;
-      setIsVisible(entry.isIntersecting);
-    });
-
-    if (showwRef.current) {
-      observer.observe(showwRef.current);
-    }
-
-    return () => {
-      observer.disconnect();
-    };
-  }, []);
 
   return (
     <main className="main-about container">
@@ -89,15 +72,6 @@ const AboutMe = () => {
                                 Mi objetivo es trabajar en proyectos desafiantes que me permitan poder desplegar mis habilidades y conocimientos, y de esta forma crear soluciones innovadoras que satisfagan las necesidades de los usuarios.
                             </p>
                         </div>
-                    </div>
-                </div>
-                <div
-                    ref={showwRef}
-                    className={`showw ${isVisible ? "visible" : ""}`}>
-                    <div className="text__container">
-                        <span className="titlee">
-                            Si buscas un profesional comprometido y apasionado, ¡no dudes en contactarme!
-                        </span>
                     </div>
                 </div>
             </section>

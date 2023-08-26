@@ -9,6 +9,7 @@
     width: 90%;
 }
 .separator{
+    position: relative;
     padding: 10px;
 }
 hr{
@@ -17,10 +18,180 @@ hr{
     left: 50%;
     transform: translateX(-50%);
 }
+.pop_up.visible {
+    position: fixed;
+    left: 5px;
+    top: 83vh;
+}
+.pop_up {
+    position: absolute;
+    height: 182px;
+    width: 82px;
+    top: -130px;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+    flex-direction: column;
+    z-index: 1;
+}
+.showw.visible {
+    /* transform: translateY(0); */
+    animation: shower .5s 0.8s ease forwards;
+}
+.close__message {
+    color: black;
+    font-weight: 600;
+    position: absolute;
+    right: 25px;
+    top: 3px;
+    cursor: pointer;
+    z-index: 3;
+    font-size: var(--small-font-size);
+}
+.showw {
+    width: 110px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    clip-path: polygon(0 100%, 0 100%, 0 100%, 0% 100%);
+    position: relative;
+    left: 40px;
+}
+.text__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 102px;
+    height: 102px;
+    position: absolute;
+    bottom: 0;
+}
+.bxs-message-square {
+    display: flex;
+    font-size: 120px;
+    justify-content: center;
+    align-items: center;
+    width: 102px;
+    height: 102px;
+    color: var(--first-color);
+}
+.titlee {
+    color: var(--twin-color-primary);
+    font-family: var(--body-font);
+    font-weight: 600;
+    font-size: 10px;
+    animation: shower .3s 1s backwards reverse;
+    text-align: center;
+    position: absolute;
+    margin-bottom: 5px;
+    width: 90px;
+    z-index: 2;
+}
+.contactMe__button{
+    color: var(--twin-color-secundary);
+}
+.img__pop_up.visible {
+    animation: apear 1s 0.2s ease forwards;
+    cursor: pointer;
+}
+.img__pop_up {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+    box-shadow: 2px 2px 8px;
+}
+
+
+@keyframes shower {
+    to {
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
 
 /*medias*/
 @media screen and (min-width: 768px) {
     .experience_skills{
         width: 70%;
+    }
+    .pop_up.visible {
+        top: 72vh;
+
+    }
+    .pop_up {
+        height: 280px;
+        width: 130px;
+        top: -10px;
+    }
+    .showw {
+        width: 145px;
+        height: 145px;
+        left: 100px;
+    }
+    .close__message {
+        right: 30px;
+        top: 10px;
+        font-size: var(--large-font-size);
+    }
+    .text__container {
+        width: 135px;
+        height: 135px;
+        bottom: 0;
+    }
+    .bxs-message-square {
+        font-size: 170px;
+        width: 135px;
+        height: 135px;
+    }
+    .titlee {
+        font-size: 14px;
+        margin-bottom: 7px;
+        width: 130px;
+    }
+    .img__pop_up {
+        height: 130px;
+        width: 130px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .pop_up.visible {
+        top: 65vh;
+        left: 10px;
+    }
+    .pop_up {
+        height: 380px;
+        width: 180px;
+        /* top: -10px; */
+    }
+    .showw {
+        width: 190px;
+        height: 185px;
+        left: 100px;
+        margin-bottom: 20px;
+    }
+    .close__message {
+        right: 40px;
+        top: 7px;
+    }
+    .text__container {
+        width: 180px;
+        height: 180px;
+        bottom: 0;
+    }
+    .bxs-message-square {
+        font-size: 210px;
+        width: 180px;
+        height: 180px;
+    }
+    .titlee {
+        font-size: 20px;
+        margin-bottom: 10px;
+        width: 180px;
+    }
+    .img__pop_up {
+        height: 180px;
+        width: 180px;
     }
 }

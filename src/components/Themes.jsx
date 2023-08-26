@@ -26,8 +26,10 @@ const Themes = () => {
   const [color, setColor] = useState(getStorageColor());
   const [theme, setTheme] = useState(getStorageTheme());
 
-  const changeColor = (color) => {
-    setColor(color);
+  const changeColor = (hexColor) => {
+    setColor(hexColor);
+    document.documentElement.style.setProperty('--first-color', hexColor);
+    localStorage.setItem('color', hexColor);
   };
 
   const toggleTheme = () => {
@@ -37,11 +39,6 @@ const Themes = () => {
       setTheme('light-theme');
     }
   };
-
-  useEffect(() => {
-    document.documentElement.style.setProperty('--first-color', color);
-    localStorage.setItem('color', color);
-  }, [color]);
 
   useEffect(() => {
     document.documentElement.className = theme;
@@ -63,6 +60,20 @@ const Themes = () => {
         </div>
 
         <h3 className='style__switcher-title'>Style Switcher</h3>
+        <div className='input__color'>
+          <div className='label__section'>
+            <label htmlFor="color" className='label__color'>cambia el color que tu quieras</label>
+            <span className='arrow__input'><i className='bx bx-chevron-down'></i></span>
+          </div>
+          <input
+            type="color"
+            value={color}
+            onChange={(e) => changeColor(e.target.value)}
+            className='color__input'
+            id='color'
+          />
+        </div>
+        
         <div className='style__switcher-items'>
           {themes.map((theme, index) => {
             return (
