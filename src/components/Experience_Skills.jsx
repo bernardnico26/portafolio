@@ -48,7 +48,7 @@ const Experience_skills = () => {
                               <div className="text__container">
                                 <i class='bx bxs-message-square'>
                                   <span className="titlee">
-                                    Si buscas un profesional comprometido y apasionado, ¡no dudes en <a href="#contacto" className="contactMe__button">contactarme</a> !
+                                    Si buscas un profesional comprometido y responsable, ¡no dudes en <a href="#contacto" className="contactMe__button">contactarme</a> !
                                   </span>
                                 </i>
                               </div>
