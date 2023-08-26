@@ -21,7 +21,7 @@ hr{
 .pop_up.visible {
     position: fixed;
     left: 5px;
-    top: 83vh;
+    top: 78vh;
 }
 .pop_up {
     position: absolute;
@@ -117,7 +117,7 @@ hr{
         width: 70%;
     }
     .pop_up.visible {
-        top: 72vh;
+        top: 67vh;
 
     }
     .pop_up {
@@ -157,7 +157,7 @@ hr{
 }
 @media screen and (min-width: 1024px) {
     .pop_up.visible {
-        top: 65vh;
+        top: 55vh;
         left: 10px;
     }
     .pop_up {
