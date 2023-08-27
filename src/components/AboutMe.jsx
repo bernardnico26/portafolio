@@ -49,7 +49,7 @@ const AboutMe = () => {
                         </ul>
 
                         <div className="download__section">
-                            <a href="./CV_NB.pdf" download='' className='button'>
+                            <a href="./cv_nicolas_bernard.pdf" download='' className='button'>
                                 <span className="text__button">Descargar Cv</span>
                                 <span className='button__icon'>
                                     <i className="fa-solid fa-download"></i>

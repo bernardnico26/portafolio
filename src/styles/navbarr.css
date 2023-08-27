@@ -1,6 +1,6 @@
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     position: fixed;
     background-color: var(--container-color);
     width: 100%;
@@ -40,6 +40,7 @@ nav button i:hover {
 .nav__menu__item {
     list-style: none;
     line-height: 60px;
+    width: 20%;
 }
 .nav__link {
     text-decoration: none;
@@ -59,6 +60,17 @@ nav button i:hover {
 }
 
 @media screen and (min-width: 1024px) {
+    .logo__container{
+        background-image: url(/logo_developer.png);
+        width: 50%;
+        background-repeat: no-repeat;
+    }
+    .logo_developer{
+        height: 100%;
+    }
+    .buttons_container{
+        width: 50% ;
+    }
     .nav__toggle {
         display: none;
     }
@@ -68,11 +80,14 @@ nav button i:hover {
         left: 0;
         top: 0;
         position: static;
-        gap: 50px;
+        gap: 10px;
         background-color: transparent;
         margin-right: 50px;
     }
-    .nav__menu__item .nav__link {
-        font-size: 16px;
+    .nav__name{
+        font-size: 18px;
+        text-align: center;
     }
+}
+@media screen and (min-width: 1222px) {
 }
