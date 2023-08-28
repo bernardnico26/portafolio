@@ -46,7 +46,7 @@ const Experience_skills = () => {
                               className={`showw ${isVisible ? "visible" : ""}`}>
                               <span onClick={togglePopUp} className="close__message">X</span>
                               <div className="text__container">
-                                <i class='bx bxs-message-square'>
+                                <i className='bx bxs-message-square'>
                                   <span className="titlee">
                                     Si buscas un profesional comprometido y responsable, ¡no dudes en <a href="#contacto" className="contactMe__button">contactarme</a> !
                                   </span>
