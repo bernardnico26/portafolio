@@ -46,50 +46,52 @@ const Themes = () => {
   }, [theme]);
 
   return (
-    <div>
-      <div className={`${showSwitcher ? 'show-switcher' : ''} style__switcher`}>
-        <div
-          className='style__switcher-toggler'
-          onClick={() => setShowSwitcher(!showSwitcher)}
-        >
-          <i className="fa-solid fa-gear"></i>
+    <section>
+      <div className='style__switcher'>
+        <div className='color__settings_container '>
+          <div className='style__switcher-toggler colors'
+              onClick={() => setShowSwitcher(!showSwitcher)}><i className="fa-solid fa-gear"></i>
+          </div>
+          <div className={`${showSwitcher ? 'show-switcher' : ''} color_settings`}>
+            <h3 className='style__switcher-title'>Style Switcher</h3>
+            <div className='input__color'>
+              <div className='label__section'>
+                <label htmlFor="color" className='label__color'>cambia el color que tu quieras</label>
+                <span className='arrow__input'><i className='bx bx-chevron-down'></i></span>
+              </div>
+              <input
+                type="color"
+                value={color}
+                onChange={(e) => changeColor(e.target.value)}
+                className='color__input'
+                id='color'
+              />
+            </div>
+            
+            <div className='style__switcher-items'>
+              {themes.map((theme, index) => {
+                return (
+                  <ThemeItem key={index} {...theme} changeColor={changeColor} />
+                );
+              })}
+            </div>
+
+            <div
+              className='style__switcher-close'
+              onClick={() => setShowSwitcher(!showSwitcher)}
+            >
+              &times;
+            </div>
+          </div>
         </div>
 
-        <div className='theme__toggler' onClick={toggleTheme}>
+        <div className='theme__toggler colors' onClick={toggleTheme}>
           {theme === 'light-theme' ? <span><i className="fa-regular fa-moon"></i></span> : <span><i className="fa-regular fa-sun"></i></span>}
         </div>
 
-        <h3 className='style__switcher-title'>Style Switcher</h3>
-        <div className='input__color'>
-          <div className='label__section'>
-            <label htmlFor="color" className='label__color'>cambia el color que tu quieras</label>
-            <span className='arrow__input'><i className='bx bx-chevron-down'></i></span>
-          </div>
-          <input
-            type="color"
-            value={color}
-            onChange={(e) => changeColor(e.target.value)}
-            className='color__input'
-            id='color'
-          />
-        </div>
         
-        <div className='style__switcher-items'>
-          {themes.map((theme, index) => {
-            return (
-              <ThemeItem key={index} {...theme} changeColor={changeColor} />
-            );
-          })}
-        </div>
-
-        <div
-          className='style__switcher-close'
-          onClick={() => setShowSwitcher(!showSwitcher)}
-        >
-          &times;
-        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
