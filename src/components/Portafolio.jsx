@@ -30,7 +30,11 @@ const Portafolio = () => {
           </div>
         </div>
         <div className="projects__instructions">
-          <span> Para mas informacion toca la imagen si usas un dispositivo movil o pasa el cursor sobre la imagen si usas un computador</span>
+          <b>INSTRUCCIONES</b>
+          <ul className="instructions_list">
+            <li>Para ver los diferentes proyectos desliza si usas un dispositivo movil o clickea a los costados si usas un computador</li>
+            <li>Para mas información toca la imagen si usas un dispositivo movil o pasa el cursor sobre la imagen si usas un computador</li>
+          </ul>
         </div>
       </section>
     </section>

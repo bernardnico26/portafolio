@@ -36,10 +36,23 @@ const Projects = ({ img, title, details, id, dire }) => {
             
                   <ul className='modal__list grid'>
                     {details.map(({ icon, title, desc }, index) => {
+                      if (index === 3) {
+                        return (
+                          <li className='modal__item' key={index}>
+                            <span className='item__icon'>{icon}</span>
+                            <div>
+                              <span className='item__title'>{title}</span>
+                              <a href={desc} target="_blank" rel="noopener noreferrer">
+                                Ir al proyecto
+                              </a>
+                            </div>
+                          </li>
+                        );
+                      }
+
                       return (
                         <li className='modal__item' key={index}>
                           <span className='item__icon'>{icon}</span>
-                    
                           <div>
                             <span className='item__title'>{title}</span>
                             <span className='item__details'>{desc}</span>

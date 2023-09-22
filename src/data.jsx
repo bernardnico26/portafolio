@@ -86,7 +86,7 @@ import project4 from './assets/weather.png'
       {
         icon: <span className='item__icon'><i className='bx bx-file' ></i></span>,
         title: 'Project : ',
-        desc: 'E-commerce',
+        desc: 'Tienda online de electro',
       },
       {
         icon: <span className='item__icon'><i className='bx bx-code-alt' ></i></span>,
@@ -101,7 +101,7 @@ import project4 from './assets/weather.png'
       {
         icon: <span className='item__icon'><i className='bx bx-link' ></i></span>,
         title: 'Link : ',
-        desc: `https://nicolasbernardportafolio.netlify.app/`,
+        desc: `https://e-commerce-nb-a-p.netlify.app`,
       },
     ],
   },
@@ -115,7 +115,7 @@ import project4 from './assets/weather.png'
       {
         icon: <span className='item__icon'><i className='bx bx-file' ></i></span>,
         title: 'Project : ',
-        desc: 'Pokedex',
+        desc: 'Simulacion de una Pokedex',
       },
       {
         icon: <span className='item__icon'><i className='bx bx-code-alt' ></i></span>,
@@ -144,7 +144,7 @@ import project4 from './assets/weather.png'
       {
         icon: <span className='item__icon'><i className='bx bx-file' ></i></span>,
         title: 'Project : ',
-        desc: 'Rick and Morty Locations',
+        desc: 'Informacion de las locaciones de Rick and Morty',
       },
       {
         icon: <span className='item__icon'><i className='bx bx-code-alt' ></i></span>,
@@ -173,7 +173,7 @@ import project4 from './assets/weather.png'
       {
         icon: <span className='item__icon'><i className='bx bx-file' ></i></span>,
         title: 'Project : ',
-        desc: 'Weather Page',
+        desc: 'Aplicacion web del clima',
       },
       {
         icon: <span className='item__icon'><i className='bx bx-code-alt' ></i></span>,

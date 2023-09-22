@@ -40,7 +40,7 @@ nav button i:hover {
 .nav__menu__item {
     list-style: none;
     line-height: 60px;
-    width: 20%;
+    
 }
 .nav__link {
     text-decoration: none;
@@ -83,6 +83,9 @@ nav button i:hover {
         gap: 10px;
         background-color: transparent;
         margin-right: 50px;
+    }
+    .nav__menu__item {
+        width: 20%;
     }
     .nav__name{
         font-size: 18px;

@@ -39,11 +39,17 @@
 }
 .projects__instructions{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 90%;
     padding: 10px;
     font-size: var(--h4-font-size);
+}
+.instructions_list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 /*medias*/
