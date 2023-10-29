@@ -25,12 +25,12 @@ const NavBar = () => {
                     </li>
                     <li className="nav__menu__item">
                         <a href="#misdatos" className="nav__link">
-                            <h3 className='nav__name' onClick={toggleMenu}>mis datos</h3>
+                            <h3 className='nav__name' onClick={toggleMenu}>Mis Datos</h3>
                         </a>
                     </li>
                     <li className="nav__menu__item">
                         <a href="#habilidades" className="nav__link">
-                            <h3 className='nav__name' onClick={toggleMenu}>habilidades</h3>
+                            <h3 className='nav__name' onClick={toggleMenu}>Habilidades</h3>
                         </a>
                     </li>
                     <li className="nav__menu__item">

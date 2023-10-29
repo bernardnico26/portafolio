@@ -33,7 +33,7 @@ const Experience_skills = () => {
         <main className="main__experience_skills">
             <section className="experience_skills" id="habilidades">
                 <h2 className='section__title'>
-                    Experiencia <span>y habilidades</span>
+                    Experiencia <span>y Habilidades</span>
                 </h2>
                 <Experience/>
                 <div className="separator">

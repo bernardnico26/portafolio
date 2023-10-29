@@ -5,7 +5,7 @@ const Skills= () => {
     return (
         <section className="section-skills">
             <h3 className='section__subtitle'>
-                Mis habilidades
+                Mis Habilidades
             </h3>
             <div className='skills__container grid'>
                 <div className="skills__data">
