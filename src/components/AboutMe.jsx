@@ -63,10 +63,10 @@ const AboutMe = () => {
                         <h3 className='section__subtitle'>Un poco de mí</h3>
                         <div className="My__description_data">
                             <p>
-                                Actualmente soy un Front-End Developer. Mi enfoque se basa en la disciplina y el compromiso, lo que me ha llevado a brindar lo mejor de mi en cada proyecto, para llegar al mejor resultado posible.
+                                Actualmente soy Fullstack Developer de JavaScript. Mi enfoque se basa en la disciplina y el compromiso, lo que me ha llevado a brindar lo mejor de mi en cada proyecto, para llegar al mejor resultado posible.
                             </p>
                             <p>
-                                Soy una persona que se apasiona por la programacion, por lo que siempre estoy dispuesto a aprender y mantenerme actualizado en las últimas tendencias y tecnologías.
+                                Soy una persona que se apasiona por la programacion, por lo que siempre estoy dispuesto a aprender y mantenerme actualizado en las últimas tendencias y tecnologías. Actualmente estudio en la UTN la carrera de tecnicatura universitaria en programacion para expandir mis conocimientos.
                             </p>
                             <p>
                                 Mi objetivo es trabajar en proyectos desafiantes que me permitan poder desplegar mis habilidades y conocimientos, y de esta forma crear soluciones innovadoras que satisfagan las necesidades de los usuarios.

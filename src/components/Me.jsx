@@ -16,7 +16,7 @@ const Me = () => {
               
 
               <p className='home__description'>
-                Soy un Front-End Developer muy apasionado por lo que hago, la vida me llevo a transitar diferentes trabajos, pero ninguno me generó lo que hace la programacion.
+                Soy un Fullstack Developer muy apasionado por lo que hago, la vida me llevo a transitar diferentes trabajos, pero ninguno me generó lo que hace la programacion.
               </p>
 
               <div>

@@ -71,6 +71,7 @@ form{
     width: 100%;
 }
 .button_form{
+    cursor: pointer;
     background-color: var(--first-color);
     height: 30px;
 }
